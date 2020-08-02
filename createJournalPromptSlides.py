@@ -15,7 +15,8 @@ def addSlide(quote, person):
     title_shape = shapes.title
     body_shape = shapes.placeholders[1]
 
-    title_shape.text = "Wacky Wednesday"
+    #title_shape.text = "Journal Prompt"
+    title_shape.text = ""
 
     tf = body_shape.text_frame
     tf.text = quote + "\n" + person
