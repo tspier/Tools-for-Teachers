@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 from pptx import Presentation
-import time
 import requests
 
 def findEtymology(query):
