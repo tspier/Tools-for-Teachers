@@ -1,0 +1,7 @@
+# Tools-for-Teachers
+
+The scripts uploaded here were created by me in an attempt to automate some of the initial work of teaching at a new school district in a remote capacity. To this end, there are currently two scripts available. Given a single string of space-delimited words, [createVocabSlides.py](https://github.com/tspier/Tools-for-Teachers/blob/master/createVocabSlides.py) will retrieve the definition(s) and etymology from Dictionary.com before exporting each individually to a slide. Given a dict of journal prompts, [createJournalPrompts.py](https://github.com/tspier/Tools-for-Teachers/blob/master/createJournalPromptSlides.py) will export each individually to a slide. You'll still need (or at least want) to make formatting modifications and clean up the output slightly for your own purposes, but this is substantially faster than trying to do them one-by-one as needed. You can see a sample slide for vocabulary [here](https://github.com/tspier/Tools-for-Teachers/blob/master/sampleVocab.png) and a sample slide for journal prompts [here](https://github.com/tspier/Tools-for-Teachers/blob/master/sampleJournalPrompt.png).
+
+**NOTE:** The scripts will not run unless you make the appropriate changes.
+* In the case of createVocabSlides.py, this means adding your words to line 32.
+* In the case of createJournalPrompts.py, this means adding (a) the keys and values to line 9 and (b) a general slide title to line 19.
